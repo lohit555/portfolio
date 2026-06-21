@@ -13,8 +13,14 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-section {
-    border-bottom: 1px solid #1e2a45;
+section h2 i {
+    color: #00aaff;
+    margin-right: 12px;
+}
+
+.nav-subtitle {
+    color: #ffffff;
+    font-weight: normal;
 }
 
 nav{
@@ -101,19 +107,12 @@ nav ul{
     margin-top: 20px;
 }
 
-.box-group {
+.hero-buttons {
     display: flex;
-    gap: 20px;
+    gap: 16px;
     margin-top: 30px;
 }
 
-.box {
-    background-color: #001f60;
-    padding: 30px;
-    border-radius: 12px;
-    flex: 1;
-    max-width: 220px;
-}
 
 #about {
     padding: 60px;
@@ -311,7 +310,7 @@ nav ul{
 
 #contact p{
     font-size: 16px;
-    color: #8a9bbf;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
